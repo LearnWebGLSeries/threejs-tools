@@ -1,0 +1,38 @@
+{
+    "name": "three",
+    "version": "0.158.0",
+    "description": "JavaScript 3D library",
+    "type": "module",
+    "main": "./build/three.js",
+    "module": "./build/three.module.js",
+    "browserslist": [
+        "> 1%, not dead, not ie 11, not op_mini all"
+    ],
+    "scripts": {
+        "build": "rollup -c rollup.config.js"
+    },
+    "keywords": [
+        "three",
+        "three.js",
+        "javascript",
+        "3d",
+        "virtual-reality",
+        "augmented-reality",
+        "webgl",
+        "webgl2",
+        "webaudio",
+        "webgpu",
+        "webxr",
+        "canvas",
+        "svg",
+        "html5"
+    ],
+    "author": "zhoyq",
+    "devDependencies": {
+        "@rollup/plugin-terser": "^0.4.0",
+        "magic-string": "^0.30.0",
+        "rollup": "^3.20.2",
+        "rollup-plugin-filesize": "^10.0.0",
+        "rollup-plugin-visualizer": "^5.9.0"
+    }
+}
